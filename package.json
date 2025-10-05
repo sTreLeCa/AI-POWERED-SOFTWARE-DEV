@@ -1,0 +1,10 @@
+{
+  "name": "ai-powered-software-dev-course",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "serve": "slidev serve dist"
+  }
+}
