@@ -1,0 +1,39 @@
+name: Build and Lint
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Node dependencies
+        run: npm install
+        working-directory: course-pack
+
+      - name: Build slides
+        run: npm run build
+        working-directory: course-pack
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Python dependencies
+        run: pip install -r course-pack/requirements.txt
+
+      - name: Lint Python
+        run: |
+          pip install flake8
+          flake8
