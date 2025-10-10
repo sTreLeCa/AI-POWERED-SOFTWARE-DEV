@@ -1,1 +1,1558 @@
+# Team Contract
 
+**Course:** Building AI-Powered Applications  
+**Team Name:** [Your Team Name]  
+**Project:** [Your Project Title]  
+**Date:** [Date]
+
+---
+
+## Team Members
+
+| Name | Email | GitHub Username | Primary Role |
+|------|-------|-----------------|--------------|
+| [Name 1] | [email] | [@username] | [e.g., Backend Lead] |
+| [Name 2] | [email] | [@username] | [e.g., Frontend Lead] |
+| [Name 3] | [email] | [@username] | [e.g., AI Integration] |
+
+---
+
+## Team Mission & Goals
+
+**Our Mission:**
+[1-2 sentences describing what you want to achieve together]
+
+**Our Goals for This Semester:**
+1. [Specific, measurable goal 1]
+2. [Specific, measurable goal 2]
+3. [Specific, measurable goal 3]
+
+---
+
+## Roles & Responsibilities
+
+### Primary Roles
+
+**[Team Member 1] - [Role Title]**
+- Responsibilities:
+  - [Specific responsibility 1]
+  - [Specific responsibility 2]
+  - [Specific responsibility 3]
+- Accountable for: [What they're ultimately responsible for]
+
+**[Team Member 2] - [Role Title]**
+- Responsibilities:
+  - [Specific responsibility 1]
+  - [Specific responsibility 2]
+  - [Specific responsibility 3]
+- Accountable for: [What they're ultimately responsible for]
+
+**[Team Member 3] - [Role Title]** (if applicable)
+- Responsibilities:
+  - [Specific responsibility 1]
+  - [Specific responsibility 2]
+  - [Specific responsibility 3]
+- Accountable for: [What they're ultimately responsible for]
+
+### Shared Responsibilities
+
+All team members are equally responsible for:
+- [ ] Attending weekly team meetings
+- [ ] Completing assigned tasks on time
+- [ ] Communicating blockers early
+- [ ] Code reviews and testing
+- [ ] Documentation
+- [ ] [Add other shared responsibilities]
+
+---
+
+## Communication Plan
+
+### Primary Communication Channel
+**Platform:** [e.g., Discord, Slack, WhatsApp, Telegram]  
+**Expected Response Time:** [e.g., Within 24 hours on weekdays, 48 hours on weekends]
+
+### Meetings
+
+**Regular Team Meetings:**
+- **Frequency:** [e.g., Twice per week]
+- **Days/Times:** [e.g., Tuesdays 6pm, Saturdays 2pm]
+- **Duration:** [e.g., 1 hour]
+- **Location/Platform:** [e.g., In-person at library / Zoom link]
+
+**Meeting Norms:**
+- [ ] Everyone comes prepared with updates
+- [ ] Rotate note-taking responsibility
+- [ ] Start and end on time
+- [ ] Agenda posted 24 hours before meeting
+- [ ] [Add other norms]
+
+**If Someone Can't Attend:**
+- Notify team at least [X] hours in advance
+- Review meeting notes within 24 hours
+- Complete any assigned action items
+
+---
+
+## Work Process & Tools
+
+### Development Workflow
+
+**Version Control:**
+- Platform: GitHub
+- Branch Strategy: [e.g., main + feature branches, dev branch + PRs]
+- Commit Message Format: [e.g., "feat: add user auth", "fix: resolve API timeout"]
+
+**Code Review Process:**
+- [ ] All PRs require at least [1/2] approval(s)
+- [ ] PRs should be reviewed within [24/48] hours
+- [ ] Include tests with new features
+- [ ] Update documentation for significant changes
+
+**Task Management:**
+- Platform: [e.g., GitHub Issues, Trello, Notion]
+- Task Assignment: [e.g., Self-assign during meetings, rotated by lead]
+- Status Updates: [e.g., Daily standups in Slack, weekly syncs]
+
+### Contribution Tracking
+
+We will track contributions through:
+- [ ] GitHub commit history and PR contributions
+- [ ] Task completion in [project management tool]
+- [ ] Weekly progress reports (rotating responsibility)
+- [ ] Peer evaluation forms (mid-term and final)
+
+**Expected Contribution:**
+Each team member should contribute approximately [X] hours per week.
+
+---
+
+## Decision-Making Process
+
+### Routine Decisions (e.g., small technical choices, task assignments)
+- Method: [e.g., Majority vote, consensus, assigned owner decides]
+- Timeline: [e.g., Decided within 24 hours]
+
+### Major Decisions (e.g., scope changes, architecture pivots)
+- Method: [e.g., Unanimous agreement required, or 2/3 majority with 24-hour notice]
+- Timeline: [e.g., Discuss in team meeting, decide within one week]
+- Documentation: [e.g., Record in decision-log.md file]
+
+### If We Can't Agree:
+1. [e.g., Take 24 hours to research and present arguments]
+2. [e.g., Vote with majority rule]
+3. [e.g., If still stuck, consult instructor]
+
+---
+
+## Conflict Resolution
+
+### Step 1: Direct Communication
+- Address issues directly with the person(s) involved
+- Use "I feel" statements, not accusations
+- Focus on the problem, not the person
+- Timeline: Within 48 hours of issue arising
+
+### Step 2: Team Discussion
+If Step 1 doesn't resolve the issue:
+- Bring it to the full team in a scheduled meeting
+- Everyone gets a chance to speak
+- Focus on finding a solution, not assigning blame
+- Document the agreed resolution
+
+### Step 3: Instructor Mediation
+If Steps 1-2 don't work:
+- Contact the instructor via email (include all team members)
+- Provide a brief summary of the issue and steps already taken
+- Instructor will schedule a mediation session
+
+### Common Issues & Agreed Solutions
+
+**If someone misses a deadline:**
+- [e.g., Team checks in 24 hours before deadline to catch issues early]
+- [e.g., Missing member makes up work within 48 hours or next task is reassigned]
+
+**If someone isn't responding to communications:**
+- [e.g., After 48 hours, escalate to emergency contact or instructor]
+
+**If workload feels unequal:**
+- [e.g., Review contribution logs at weekly meeting, rebalance if needed]
+
+**If technical disagreement arises:**
+- [e.g., Prototype both approaches, test, then decide based on metrics]
+
+---
+
+## Quality Standards
+
+We commit to delivering high-quality work that meets the following standards:
+
+### Code Quality
+- [ ] Follows [language] style guide (e.g., PEP 8 for Python, Airbnb for JS)
+- [ ] Includes docstrings/comments for complex logic
+- [ ] Passes linting checks
+- [ ] Has unit tests for core functionality
+
+### Documentation Quality
+- [ ] README is always up-to-date
+- [ ] Setup instructions are clear and tested
+- [ ] API endpoints are documented
+- [ ] Architecture decisions are recorded
+
+### UX/Product Quality
+- [ ] Features are user-tested before marking complete
+- [ ] Error messages are clear and helpful
+- [ ] Loading states and feedback are implemented
+- [ ] Accessibility basics are covered (color contrast, keyboard nav)
+
+---
+
+## Accountability & Expectations
+
+### What We Expect from Each Other
+
+**Reliability:**
+- Complete assigned tasks by agreed deadlines
+- If you'll be late, communicate early (at least 24 hours notice)
+- Show up to meetings on time and prepared
+
+**Quality:**
+- Submit work that you're proud of
+- Test your code before pushing
+- Proofread documentation
+
+**Communication:**
+- Respond to messages within agreed timeframe
+- Ask for help when stuck (don't wait until it's too late)
+- Give constructive feedback respectfully
+
+**Collaboration:**
+- Be open to feedback and willing to iterate
+- Support teammates when they're struggling
+- Celebrate wins together
+
+### Consequences for Not Meeting Expectations
+
+**First Instance:**
+- Team discussion to understand what happened
+- Agree on a plan to prevent recurrence
+
+**Second Instance:**
+- Formal check-in meeting with all team members
+- Possible workload adjustment or role change
+- Documented in peer evaluation
+
+**Third Instance:**
+- Involve instructor
+- May impact individual component of project grade
+- Review team membership if necessary
+
+---
+
+## Success Metrics
+
+We will consider this project successful if:
+
+**Team Health:**
+- [ ] All team members feel heard and respected
+- [ ] Conflicts are resolved constructively
+- [ ] Workload is distributed fairly
+- [ ] We enjoy working together
+
+**Project Outcomes:**
+- [ ] We ship a working product by Week 15
+- [ ] We meet all major milestone deadlines
+- [ ] Our code is maintainable and documented
+- [ ] Users find our product valuable
+
+**Learning Goals:**
+- [ ] Everyone learns new technical skills
+- [ ] We all contribute meaningfully
+- [ ] We can articulate our technical decisions
+- [ ] We're proud to show this in our portfolios
+
+---
+
+## Amendments
+
+This contract can be amended with:
+- [ ] Unanimous agreement of all team members
+- [ ] Documentation of what changed and why
+- [ ] Updated version committed to repo with new date
+
+**Amendment History:**
+- [Date]: [Brief description of change]
+
+---
+
+## Signatures
+
+By signing below, we agree to uphold this contract and work together professionally and respectfully.
+
+**[Team Member 1 Name]**  
+Signature: ___________________________  Date: _______________
+
+**[Team Member 2 Name]**  
+Signature: ___________________________  Date: _______________
+
+**[Team Member 3 Name]** (if applicable)  
+Signature: ___________________________  Date: _______________
+
+---
+
+## For Digital Signatures
+
+If signing digitally, each team member should:
+1. Type their full name below
+2. Add the date
+3. Commit this file with a commit message: "Sign team contract - [Your Name]"
+
+- **[Name]** agreed on [Date]
+- **[Name]** agreed on [Date]
+- **[Name]** agreed on [Date]
+
+---
+
+**Note:** This contract is a living document. Revisit it at mid-term to ensure it's still serving your team well.
+
+
+# Capstone Proposal
+
+**Course:** Building AI-Powered Applications  
+**Team Name:** [Your Team Name]  
+**Project Title:** [Your Project Title]  
+**Date:** [Submission Date]
+
+---
+
+## 1. Problem Statement
+
+### The Problem
+
+[2-3 paragraphs describing the problem you're solving]
+
+**Questions to answer:**
+- What specific problem are you addressing?
+- Who currently experiences this problem?
+- What are the current solutions (if any) and why are they inadequate?
+- Why does this problem matter?
+- What makes this problem suitable for an AI-powered solution?
+
+**Example Structure:**
+"Many students struggle with [specific problem]. Currently, they [how they deal with it now], which leads to [negative outcomes]. This problem affects [number/type of people] and costs them [time/money/frustration]. An AI-powered solution could [how AI specifically helps] by [concrete mechanism]."
+
+---
+
+### Scope
+
+**What's In Scope:**
+- [Feature/capability 1]
+- [Feature/capability 2]
+- [Feature/capability 3]
+
+**What's Out of Scope (but maybe future work):**
+- [Thing you won't do 1]
+- [Thing you won't do 2]
+
+**Why This Scope Makes Sense:**
+[1-2 sentences justifying your chosen scope for a semester project]
+
+---
+
+## 2. Target Users
+
+### Primary User Persona
+
+**User Type:** [e.g., Undergraduate students, small business owners, content creators]
+
+**Demographics:**
+- Age range: [e.g., 18-24]
+- Technical proficiency: [e.g., Comfortable with web apps, but not developers]
+- Context of use: [e.g., Mobile-first, using during commute]
+
+**User Needs:**
+1. **Need #1:** [Specific need]
+   - Why it matters: [Impact on user]
+   - Current workaround: [What they do now]
+
+2. **Need #2:** [Specific need]
+   - Why it matters: [Impact on user]
+   - Current workaround: [What they do now]
+
+3. **Need #3:** [Specific need]
+   - Why it matters: [Impact on user]
+   - Current workaround: [What they do now]
+
+**User Pain Points:**
+- [Specific frustration 1]
+- [Specific frustration 2]
+- [Specific frustration 3]
+
+---
+
+### Secondary Users (Optional)
+
+[If applicable, describe other types of users who might interact with your system]
+
+---
+
+## 3. Success Criteria
+
+### Product Success Metrics
+
+**How we'll know our solution works:**
+
+1. **Metric #1:** [e.g., Task completion time]
+   - Target: [e.g., Reduce from 10 minutes to <2 minutes]
+   - Measurement method: [e.g., Time users from task start to completion]
+
+2. **Metric #2:** [e.g., Accuracy/Quality]
+   - Target: [e.g., 90% of outputs rated "helpful" or "very helpful" by users]
+   - Measurement method: [e.g., Post-task survey with 5-point scale]
+
+3. **Metric #3:** [e.g., User satisfaction]
+   - Target: [e.g., NPS score >50, or 4/5 average rating]
+   - Measurement method: [e.g., Exit survey]
+
+4. **Metric #4:** [e.g., Adoption/Engagement]
+   - Target: [e.g., 5 active users with 3+ sessions each]
+   - Measurement method: [e.g., Usage analytics]
+
+5. **Metric #5:** [e.g., Cost efficiency]
+   - Target: [e.g., <$0.10 per user interaction]
+   - Measurement method: [e.g., API cost tracking]
+
+---
+
+### Technical Success Criteria
+
+**Minimum viable performance:**
+- Response latency: [e.g., <3 seconds p95]
+- Availability: [e.g., 95% uptime during testing period]
+- Error rate: [e.g., <5% of requests fail]
+- Cost per user: [e.g., <$X per session]
+
+---
+
+### Learning Goals
+
+**What each team member wants to learn:**
+
+**[Team Member 1]:**
+- [Specific skill/technology 1]
+- [Specific skill/technology 2]
+
+**[Team Member 2]:**
+- [Specific skill/technology 1]
+- [Specific skill/technology 2]
+
+**[Team Member 3]:** (if applicable)
+- [Specific skill/technology 1]
+- [Specific skill/technology 2]
+
+---
+
+## 4. Technical Architecture
+
+### System Overview
+
+[1-2 paragraph high-level description of how your system works]
+
+**Example:**
+"Our system consists of a Next.js frontend that captures user input, sends it to a FastAPI backend, which orchestrates calls to OpenAI's GPT-4 API and a Pinecone vector database for retrieval. Results are streamed back to the user with citations."
+
+---
+
+### Architecture Diagram
+
+[Insert diagram here - use draw.io, Excalidraw, Mermaid, or similar]
+
+```
+[Paste ASCII diagram or link to image file]
+```
+
+**Example:**
+```
+┌─────────────┐      ┌─────────────┐      ┌─────────────┐
+│   User      │─────▶│   Frontend  │─────▶│   Backend   │
+│  (Browser)  │◀─────│  (Next.js)  │◀─────│  (FastAPI)  │
+└─────────────┘      └─────────────┘      └─────────────┘
+                                                  │
+                                     ┌────────────┼────────────┐
+                                     ▼            ▼            ▼
+                              ┌──────────┐ ┌──────────┐ ┌──────────┐
+                              │ OpenAI   │ │ Pinecone │ │PostgreSQL│
+                              │   API    │ │  Vector  │ │   DB     │
+                              └──────────┘ └──────────┘ └──────────┘
+```
+
+---
+
+### Technology Stack
+
+**Frontend:**
+- Framework: [e.g., Next.js 14, React, vanilla JS]
+- Key libraries: [e.g., TailwindCSS, Recharts]
+- Hosting: [e.g., Vercel, Netlify]
+
+**Backend:**
+- Framework: [e.g., FastAPI, Flask, Express]
+- Language: [e.g., Python 3.11, TypeScript]
+- Hosting: [e.g., Render, Railway, local]
+
+**AI/ML Services:**
+- Primary model: [e.g., GPT-4o, Claude Sonnet 3.5]
+- Fallback model: [e.g., GPT-3.5-turbo]
+- Other AI services: [e.g., OpenAI Embeddings, Whisper, DALL-E 3]
+
+**Data Storage:**
+- Database: [e.g., PostgreSQL, SQLite]
+- Vector store: [e.g., FAISS, Pinecone, pgvector]
+- Object storage: [e.g., Cloudinary, S3]
+
+**DevOps/Tooling:**
+- Version control: GitHub
+- CI/CD: [e.g., GitHub Actions, none yet]
+- Monitoring: [e.g., Sentry, custom logging]
+- Testing: [e.g., pytest, Jest]
+
+---
+
+### Data Flow
+
+**Example Flow: User Query → AI Response**
+
+1. User enters query in frontend
+2. Frontend validates input and shows loading state
+3. Request sent to `/api/query` endpoint
+4. Backend:
+   - Sanitizes input (check for prompt injection)
+   - Generates embedding of query
+   - Searches vector DB for relevant context (top 5 results)
+   - Constructs prompt with retrieved context
+   - Calls OpenAI API with prompt
+   - Streams response back to frontend
+   - Logs latency, cost, and user feedback
+5. Frontend displays response with citations
+
+**Critical Path Latency Budget:**
+- Frontend validation: <100ms
+- Backend processing: <500ms
+- Vector search: <300ms
+- LLM generation: <3000ms
+- **Total target: <4 seconds**
+
+---
+
+### AI Integration Details
+
+**Model Selection:**
+- **Primary use case:** [e.g., Text generation, classification, embedding]
+- **Model choice:** [e.g., GPT-4o]
+- **Why this model:** [e.g., Good balance of quality and cost, supports streaming]
+
+**Prompt Strategy:**
+- Template: [Describe your prompt structure]
+- Context length: [e.g., Max 4000 tokens]
+- Temperature: [e.g., 0.7 for creative, 0 for factual]
+- Safety: [e.g., System prompt includes "do not provide medical advice"]
+
+**Example Prompt:**
+```
+System: You are an expert assistant for [domain]. 
+You help users by [specific task]. 
+Always cite sources when using retrieved information.
+Never provide [forbidden content].
+
+Context from knowledge base:
+{retrieved_chunks}
+
+User question: {user_query}
+
+Answer:
+```
+
+**Retrieval Strategy (if applicable):**
+- Chunking: [e.g., 500 tokens with 50 token overlap]
+- Embedding model: [e.g., text-embedding-3-small]
+- Similarity metric: [e.g., cosine similarity]
+- Top-k: [e.g., 5 most relevant chunks]
+- Reranking: [Yes/No, and method]
+
+---
+
+### Third-Party Services & APIs
+
+| Service | Purpose | Cost | Rate Limits |
+|---------|---------|------|-------------|
+| OpenAI API | Text generation | ~$0.03/1K tokens | 10K RPM tier 1 |
+| [Service 2] | [Purpose] | [Cost] | [Limits] |
+| [Service 3] | [Purpose] | [Cost] | [Limits] |
+
+**API Keys & Secrets:**
+- [ ] All keys stored in `.env` (not committed to git)
+- [ ] `.env.example` provided for team members
+- [ ] Keys rotated if accidentally exposed
+
+---
+
+## 5. Risk Assessment
+
+### Technical Risks
+
+**Risk #1: [e.g., API Rate Limits]**
+- Likelihood: [High/Medium/Low]
+- Impact: [High/Medium/Low]
+- Mitigation:
+  - [Strategy 1: e.g., Implement request queuing]
+  - [Strategy 2: e.g., Add fallback to cached responses]
+  - [Strategy 3: e.g., Monitor usage and alert at 80% threshold]
+
+**Risk #2: [e.g., LLM Output Quality]**
+- Likelihood: [High/Medium/Low]
+- Impact: [High/Medium/Low]
+- Mitigation:
+  - [Strategy 1]
+  - [Strategy 2]
+
+**Risk #3: [e.g., Response Latency]**
+- Likelihood: [High/Medium/Low]
+- Impact: [High/Medium/Low]
+- Mitigation:
+  - [Strategy 1]
+  - [Strategy 2]
+
+---
+
+### Product Risks
+
+**Risk #1: [e.g., Users Don't Find It Useful]**
+- Likelihood: [High/Medium/Low]
+- Impact: [High/Medium/Low]
+- Mitigation:
+  - [Strategy 1: e.g., User interviews in Week 3]
+  - [Strategy 2: e.g., Prototype testing before building full app]
+
+**Risk #2: [e.g., Scope Creep]**
+- Likelihood: [High/Medium/Low]
+- Impact: [High/Medium/Low]
+- Mitigation:
+  - [Strategy 1: e.g., Strict feature freeze after Week 8]
+  - [Strategy 2: e.g., Weekly scope reviews]
+
+---
+
+### Team Risks
+
+**Risk #1: [e.g., Unequal Workload Distribution]**
+- Likelihood: [High/Medium/Low]
+- Impact: [High/Medium/Low]
+- Mitigation:
+  - [Strategy 1: e.g., Weekly standup with task review]
+  - [Strategy 2: e.g., Track contributions in GitHub + peer evaluations]
+
+**Risk #2: [e.g., Team Member Availability]**
+- Likelihood: [High/Medium/Low]
+- Impact: [High/Medium/Low]
+- Mitigation:
+  - [Strategy 1: e.g., Buffer time in schedule]
+  - [Strategy 2: e.g., Cross-training on critical components]
+
+---
+
+### Safety & Ethical Risks
+
+**Risk #1: [e.g., Prompt Injection Attacks]**
+- Likelihood: [High/Medium/Low]
+- Impact: [High/Medium/Low]
+- Mitigation:
+  - [Strategy 1: e.g., Input sanitization]
+  - [Strategy 2: e.g., Separate user content from system prompts]
+
+**Risk #2: [e.g., Bias in AI Outputs]**
+- Likelihood: [High/Medium/Low]
+- Impact: [High/Medium/Low]
+- Mitigation:
+  - [Strategy 1: e.g., Test with diverse user inputs]
+  - [Strategy 2: e.g., Include disclaimer about AI limitations]
+
+**Risk #3: [e.g., Privacy/Data Leakage]**
+- Likelihood: [High/Medium/Low]
+- Impact: [High/Medium/Low]
+- Mitigation:
+  - [Strategy 1: e.g., Don't store PII]
+  - [Strategy 2: e.g., Anonymize all user data]
+
+---
+
+### Contingency Plans
+
+**If our primary model is unavailable:**
+- [Fallback plan, e.g., switch to GPT-3.5-turbo with degraded quality notice]
+
+**If we can't recruit enough user testers:**
+- [Alternative plan, e.g., synthetic evaluation with golden dataset]
+
+**If we fall behind schedule:**
+- [Plan to cut scope, e.g., drop features X and Y, focus on core flow]
+
+---
+
+## 6. Research Plan
+
+### What We Need to Learn
+
+**Technical Questions:**
+1. [e.g., How do we implement streaming responses in FastAPI?]
+   - Resources: [e.g., FastAPI docs, LangChain streaming examples]
+   - Timeline: Week 3
+
+2. [e.g., What's the best way to chunk documents for RAG?]
+   - Resources: [e.g., LlamaIndex docs, research papers on RAG]
+   - Timeline: Week 5
+
+3. [e.g., How do we prevent prompt injection?]
+   - Resources: [e.g., OWASP Top 10 for LLMs, prompt engineering guides]
+   - Timeline: Week 6
+
+**Product Questions:**
+1. [e.g., Do users prefer concise or detailed responses?]
+   - Method: [e.g., A/B test in Week 7]
+   - Timeline: Week 7-8
+
+2. [e.g., What error messages are most helpful?]
+   - Method: [e.g., User observation during testing]
+   - Timeline: Week 9
+
+---
+
+### Experiments & Prototypes
+
+**Week 3-4: Proof of Concept**
+- Goal: [e.g., Can we get a basic query → LLM → response working?]
+- Success criteria: [e.g., End-to-end flow works with <5s latency]
+- What we'll learn: [e.g., Basic API integration, prompt patterns]
+
+**Week 5-6: Retrieval Integration**
+- Goal: [e.g., Add RAG with citations]
+- Success criteria: [e.g., Responses include relevant context 80% of time]
+- What we'll learn: [e.g., Chunking strategies, embedding quality]
+
+**Week 7-8: User Testing Round 1**
+- Goal: [e.g., Get feedback on core flow]
+- Success criteria: [e.g., 3+ users complete test tasks]
+- What we'll learn: [e.g., UX pain points, feature priorities]
+
+**Week 11-12: Evaluation & Optimization**
+- Goal: [e.g., Reduce cost and latency]
+- Success criteria: [e.g., Hit target <$0.10 per query, <3s latency]
+- What we'll learn: [e.g., Caching strategies, prompt optimization]
+
+---
+
+### Literature & Resources
+
+**Key Papers/Articles to Review:**
+- [Paper 1 on RAG evaluation]
+- [Blog post on prompt engineering]
+- [Documentation on safety best practices]
+
+**Tutorials/Examples to Follow:**
+- [LangChain RAG tutorial]
+- [OpenAI cookbook example on function calling]
+- [FastAPI streaming example]
+
+---
+
+## 7. User Study Plan
+
+### Research Ethics
+
+**Do we need IRB approval?**
+- [ ] Yes - we're collecting sensitive data or working with minors
+- [ ] No - but we've completed the IRB Light Checklist (see `docs/irb-checklist.md`)
+
+**Data we'll collect:**
+- [Type of data, e.g., Task completion times, user feedback, screen recordings]
+- [How long we'll store it, e.g., Until end of semester, then delete]
+- [Who has access, e.g., Only team members]
+
+**User consent:**
+- [ ] We've adapted the course consent template
+- [ ] Users can withdraw at any time
+- [ ] We've explained data usage clearly
+
+---
+
+### Recruitment Plan
+
+**Target participants:**
+- Number: [e.g., 5-8 users per testing round]
+- Criteria: [e.g., Must be students, no prior experience with similar tools]
+- Where we'll find them: [e.g., CS department, study groups, social media]
+
+**Compensation:**
+- [e.g., Coffee gift card, pizza, acknowledgment in final presentation]
+
+**Timeline:**
+- Week 3-4: Recruit first batch (3-5 users)
+- Week 7-8: User testing round 1
+- Week 11-12: User testing round 2
+- Week 14: Final feedback session
+
+---
+
+### Testing Protocol
+
+**Session Structure (45-60 minutes):**
+
+1. **Introduction (5 min)**
+   - Explain study purpose
+   - Get consent
+   - Explain think-aloud protocol
+
+2. **Background Questions (5 min)**
+   - [Question about user's current workflow]
+   - [Question about pain points]
+   - [Question about expectations]
+
+3. **Task 1: [Specific task] (10 min)**
+   - Scenario: [e.g., "You need to find information about..."]
+   - Success: [e.g., User completes task with AI assistant]
+   - Observe: [e.g., Time, errors, confusion points]
+
+4. **Task 2: [Specific task] (10 min)**
+   - [Similar structure]
+
+5. **Task 3: [Specific task] (10 min)**
+   - [Similar structure]
+
+6. **Post-Task Questions (10 min)**
+   - What worked well?
+   - What was confusing?
+   - What would you change?
+   - Would you use this? Why/why not?
+   - Rate overall experience (1-5 scale)
+
+7. **Wrap-up (5 min)**
+   - Thank them
+   - Provide compensation
+   - Ask for follow-up permission
+
+---
+
+### Data Collection Methods
+
+- [ ] Screen recording (with permission)
+- [ ] Observer notes
+- [ ] Task completion metrics (time, success rate)
+- [ ] Post-session survey
+- [ ] System logs (latency, errors, costs)
+
+**Where data will be stored:**
+- Raw notes/recordings: [e.g., Password-protected Google Drive folder]
+- Analysis: [e.g., Anonymized summary in `docs/user-research/`]
+- No identifiable data in public repo
+
+---
+
+### Analysis Plan
+
+**Quantitative:**
+- Task completion rate
+- Average time per task
+- Error rate
+- User satisfaction scores
+
+**Qualitative:**
+- Thematic analysis of user feedback
+- Identification of common pain points
+- Prioritization of improvements
+
+**Deliverables:**
+- User research summary (Week 8, Week 12)
+- Updated feature priority list
+- Input for final case study
+
+---
+
+## 8. Project Timeline & Milestones
+
+### Weekly Breakdown
+
+| Week | Focus | Deliverables | Owner |
+|------|-------|-------------|-------|
+| 1 | Setup | Team formation, initial ideas | All |
+| 2 | Planning | **This proposal**, team contract, dev environment | All |
+| 3 | Core Flow | Basic query → LLM → response | [Name] |
+| 4 | Design Review | Architecture diagrams, eval plan | All |
+| 5 | Retrieval | RAG integration, Week 5 quiz | [Name] |
+| 6 | Function Calling | Add tool use, structured outputs | [Name] |
+| 7 | User Testing 1 | First user feedback round | All |
+| 8 | Iteration | Implement feedback, optimize | All |
+| 9 | **Midterm Exam** | Study week | All |
+| 10 | Optimization | Caching, batching, cost reduction | [Name] |
+| 11 | Safety Audit | Red teaming, bias testing | All |
+| 12 | Evaluation | Golden set, regression tests | [Name] |
+| 13 | Production | CI/CD, monitoring, portability | [Name] |
+| 14 | Polish | User testing round 2, final fixes | All |
+| 15 | **Final Demo** | Presentation, video, case study | All |
+
+---
+
+### Major Milestones
+
+**✅ Milestone 1: Proposal (Week 2)** - YOU ARE HERE
+- Submission: [Date]
+- Points: 10
+
+**🎯 Milestone 2: Design Review (Week 4)**
+- Submission: [Date]
+- Points: 5
+- What's due: Updated architecture, evaluation plan, backlog, token usage plan
+
+**🎯 Milestone 3: Safety & Evaluation Audit (Week 11)**
+- Submission: [Date]
+- Points: 3
+- What's due: Red team results, bias checks, golden set, error taxonomy, telemetry plan
+
+**🎯 Milestone 4: Final Demo (Week 15)**
+- Submission: [Date]
+- Points: 7
+- What's due: Working product, CI/CD, public README, demo video, case study
+
+---
+
+### Dependency Map
+
+**What must happen before what:**
+- ⚠️ Basic API integration (Week 3) blocks RAG (Week 5)
+- ⚠️ Core flow (Week 3) blocks user testing (Week 7)
+- ⚠️ Evaluation plan (Week 4) blocks golden set creation (Week 11)
+- ⚠️ Working product (Week 10) blocks user testing round 2 (Week 14)
+
+---
+
+### Backup Plan
+
+**If we fall behind, we'll cut (in this order):**
+1. [Secondary feature 1]
+2. [Nice-to-have feature 2]
+3. [Optimization work beyond basics]
+
+**Core features we won't cut:**
+- [Essential feature 1]
+- [Essential feature 2]
+- [Essential feature 3]
+
+---
+
+## 9. Budget & Resources
+
+### Cost Estimates
+
+**AI API Costs:**
+- Development & testing: [e.g., $50/month × 3 months = $150]
+- User testing: [e.g., $30 for ~300 test sessions]
+- Safety margin: [e.g., $50]
+- **Total AI costs: ~$230**
+
+**Other Services:**
+- [e.g., Vector DB hosting: $0 (free tier)]
+- [e.g., App hosting: $0 (free tier)]
+- [e.g., Domain name: $0 (use .vercel.app or .netlify.app)]
+
+**User compensation:**
+- [e.g., 8 users × $10 gift card = $80]
+
+**TOTAL PROJECT COST: ~$310**
+
+**Who pays:**
+- [e.g., Split equally: ~$103 per team member]
+- OR [e.g., Apply for course/department funding]
+
+---
+
+### Resource Constraints
+
+**Time:**
+- Total: ~15 weeks
+- Accounting for midterms, finals: ~12 effective weeks
+- Team capacity: [X] hours/week × [Y] team members = [Z] total hours
+
+**Compute:**
+- Development machines: [e.g., Laptops sufficient for most work]
+- GPU needs: [e.g., None - using cloud APIs]
+- Storage: [e.g., <1GB for database, fits free tier]
+
+**Access:**
+- API keys: [e.g., Each team member has own OpenAI account]
+- Shared resources: [e.g., Team account for vector DB]
+
+---
+
+## 10. Appendix
+
+### Team Contract Summary
+
+[Brief 1-2 sentence summary linking to full contract]
+See [docs/team-contract.md](./team-contract.md) for full details.
+
+---
+
+### References
+
+[List any papers, articles, or resources you referenced in this proposal]
+
+1. [Reference 1]
+2. [Reference 2]
+3. [Reference 3]
+
+---
+
+### Revision History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| [Date] | [Name] | Initial draft |
+| [Date] | [Name] | Added architecture diagram |
+| [Date] | All | Final review and approval |
+
+---
+
+## Instructor Use Only
+
+**Grade: _____ / 10**
+
+| Component | Points | Feedback |
+|-----------|--------|----------|
+| Problem Clarity | __/2 | |
+| Technical Feasibility | __/2 | |
+| Success Criteria | __/1 | |
+| Risk Assessment | __/1 | |
+| Research & User Plan | __/1.5 | |
+| Team Contract | __/1.5 | |
+| Presentation Quality | __/1 | |
+
+**Overall Feedback:**
+
+
+# Lab 2 Folder Structure & Organization
+
+**Building AI-Powered Applications**
+
+---
+
+## Complete Folder Structure
+
+```
+lab-2/
+├── README.md                           # Main lab overview and instructions
+├── homework-assignment.md              # Detailed homework requirements
+├── instructor-guide.md                 # Teaching guide for instructor
+├── quick-start.md                      # TL;DR for students who miss lab
+│
+├── templates/
+│   ├── team-contract-template.md      # Team contract template
+│   ├── capstone-proposal-template.md  # Proposal template
+│   ├── repo-structure.md              # Example repo structure
+│   └── consent-form-template.md       # User research consent form
+│
+├── guides/
+│   ├── github-setup-guide.md          # Step-by-step GitHub setup
+│   ├── problem-statement-guide.md     # How to write good problem statements
+│   ├── role-assignment-guide.md       # How to assign team roles
+│   └── irb-light-guide.md             # Ethics and IRB checklist
+│
+├── examples/                           # (Optional) Example projects
+│   ├── good-proposal-example.md       # Anonymized good proposal
+│   └── problem-statements-examples.md # Collection of good/bad examples
+│
+└── assets/                             # (Optional) Images, diagrams
+    └── architecture-example.png       # Example architecture diagram
+```
+
+---
+
+## File Descriptions
+
+### Root Level Files
+
+#### `README.md`
+**Purpose:** Main entry point for students  
+**Contents:**
+- Lab overview and objectives
+- What's due this week
+- In-class activities timeline
+- Homework assignments
+- Grading rubric
+- Links to all resources
+
+**Audience:** Students (primary), instructor (reference)
+
+---
+
+#### `homework-assignment.md`
+**Purpose:** Comprehensive homework requirements  
+**Contents:**
+- Detailed deliverable descriptions
+- Submission instructions
+- Grading rubric with examples
+- Common mistakes to avoid
+- FAQ
+- Checklist before submission
+
+**Audience:** Students (primary reference throughout week)
+
+---
+
+#### `instructor-guide.md`
+**Purpose:** Teaching guide for running the lab  
+**Contents:**
+- Lab schedule with timing
+- Activity instructions
+- Discussion prompts
+- Troubleshooting common issues
+- Assessment notes
+- Post-lab follow-up tasks
+
+**Audience:** Instructor and TAs
+
+---
+
+#### `quick-start.md`
+**Purpose:** Condensed version for students who miss lab  
+**Contents:**
+- 10-minute overview of what they missed
+- Key decisions to make
+- Critical resources to review
+- Action items to complete
+- Who to contact for help
+
+**Audience:** Absent students or those who need a quick refresher
+
+---
+
+### `/templates/` Directory
+
+Contains fill-in-the-blank templates that students copy and customize.
+
+#### `team-contract-template.md`
+- Complete team contract with all sections
+- Prompts and examples for each section
+- Signature/approval section
+- Instructions for digital signing
+
+#### `capstone-proposal-template.md`
+- All 8 required sections with prompts
+- Subsection headers
+- Word count or length guidance
+- Example responses (in comments)
+
+#### `repo-structure.md`
+- Recommended folder structure for student repos
+- Explanation of what goes where
+- Example .gitignore
+- Example .env.example
+
+#### `consent-form-template.md`
+- User research consent form
+- Customizable for different study types
+- Digital and paper versions
+- GDPR/ethics compliant
+
+---
+
+### `/guides/` Directory
+
+Contains instructional content that teaches students how to complete tasks.
+
+#### `github-setup-guide.md`
+- Step-by-step repository creation
+- Adding collaborators
+- Setting up branch protection
+- Common Git workflows
+- Troubleshooting
+
+#### `problem-statement-guide.md`
+- What makes a good problem statement
+- Formula and structure
+- Examples (good and bad)
+- Validation questions
+- Common pitfalls
+
+#### `role-assignment-guide.md`
+- Common role configurations
+- Responsibilities for each role
+- How to pick roles
+- Workload distribution
+- When to adjust roles
+
+#### `irb-light-guide.md`
+- What is IRB and when it's needed
+- Ethics checklist
+- Consent form instructions
+- Privacy and data protection
+- Approval process
+
+---
+
+### `/examples/` Directory (Optional)
+
+Contains reference examples to inspire and guide students.
+
+#### `good-proposal-example.md`
+- Anonymized full proposal from previous semester
+- Instructor annotations highlighting strong points
+- Used as reference only, not template
+
+#### `problem-statements-examples.md`
+- Collection of 10-15 problem statements
+- Labeled as good/bad with explanations
+- Covers different domains and AI techniques
+
+---
+
+### `/assets/` Directory (Optional)
+
+Contains supporting media files.
+
+#### Images
+- Example architecture diagrams
+- Screenshots of GitHub setup
+- Workflow diagrams
+- Team structure examples
+
+#### Videos (if available)
+- Recording of lab session
+- GitHub setup screencast
+- Example team meeting
+
+---
+
+## How Students Navigate This Structure
+
+### Entry Point: README.md
+
+Students start here and follow this flow:
+
+```
+README.md
+    ↓
+    ├─→ In-Class Activities
+    │   └─→ guides/github-setup-guide.md
+    │   └─→ templates/team-contract-template.md
+    │   └─→ guides/problem-statement-guide.md
+    │
+    └─→ Homework
+        ├─→ homework-assignment.md (detailed requirements)
+        ├─→ templates/capstone-proposal-template.md
+        ├─→ templates/repo-structure.md
+        └─→ guides/irb-light-guide.md (if needed)
+```
+
+### Linear vs. Reference Content
+
+**Linear (read in order):**
+1. README.md
+2. homework-assignment.md
+3. Relevant guides (as needed)
+
+**Reference (look up as needed):**
+- Templates (copy when ready to work)
+- Troubleshooting sections in guides
+- Examples (for inspiration)
+
+---
+
+## Instructor's Workflow
+
+### Before Lab
+1. Review `instructor-guide.md`
+2. Test all links in `README.md`
+3. Prepare examples to show from `/examples/`
+4. Queue up templates for screen sharing
+
+### During Lab
+1. Follow schedule in `instructor-guide.md`
+2. Direct students to specific guides as needed
+3. Use templates on screen during demos
+
+### After Lab
+1. Post any clarifications based on questions
+2. Monitor forum for common issues
+3. Review submissions using rubric from `homework-assignment.md`
+
+---
+
+## Maintenance Notes
+
+### When to Update
+
+**Weekly:**
+- Add new FAQ items to README and homework doc
+- Note common issues in instructor guide
+
+**Semester-End:**
+- Collect anonymized good proposals for `/examples/`
+- Update templates based on common gaps
+- Revise guides based on student feedback
+
+**Before Next Semester:**
+- Update dates and course calendar references
+- Refresh external links (check for broken links)
+- Review rubrics for any needed adjustments
+
+---
+
+## File Naming Conventions
+
+**Use:**
+- Lowercase with hyphens: `github-setup-guide.md`
+- Descriptive names: `team-contract-template.md` (not `template1.md`)
+- Consistent suffixes: `-guide.md`, `-template.md`, `-example.md`
+
+**Avoid:**
+- Spaces: `Problem Statement Guide.md` ❌
+- CamelCase: `GitHubSetupGuide.md` ❌
+- Abbreviations: `gh-setup.md` ❌
+- Version numbers: `template-v2.md` ❌ (use git history)
+
+---
+
+## Accessibility Considerations
+
+### For All Markdown Files
+- Use proper heading hierarchy (H1 → H2 → H3)
+- Include descriptive link text (not "click here")
+- Use alt text for images
+- Ensure code blocks have language specified
+- Use tables for tabular data (not ASCII art)
+
+### For Templates
+- Include section descriptions so screen readers provide context
+- Use form-style prompts: `[Your answer here]`
+- Number steps clearly
+
+### For Guides
+- Break long guides into logical sections with clear headings
+- Use bulleted/numbered lists for steps
+- Include "TL;DR" or "Quick Summary" at top for cognitive accessibility
+
+---
+
+## Version Control Strategy
+
+### What to Track in Git
+- ✅ All markdown files
+- ✅ Templates
+- ✅ Guides
+- ✅ Example proposals (anonymized)
+- ✅ Images and diagrams
+
+### What NOT to Track
+- ❌ Student submissions (those go in their repos)
+- ❌ Grading sheets with student names
+- ❌ Private instructor notes
+
+### Commit Messages
+Use clear, descriptive commits:
+```
+feat: add IRB light guide for user research
+fix: correct GitHub setup instructions for SSH
+docs: add FAQ section to homework assignment
+chore: update external links for 2025
+```
+
+---
+
+## Integration with Course Repository
+
+### Recommended Course Repo Structure
+
+```
+course-repository/
+├── README.md
+├── syllabus.pdf
+├── schedule.md
+│
+├── labs/
+│   ├── lab-1/
+│   ├── lab-2/  ← THIS FOLDER
+│   ├── lab-3/
+│   └── ...
+│
+├── lectures/
+│   ├── week-1/
+│   ├── week-2/
+│   └── ...
+│
+└── resources/
+    ├── setup/
+    ├── readings/
+    └── tools/
+```
+
+### Cross-References
+
+Link from course materials:
+- Syllabus → Lab 2 README
+- Week 2 announcement → Lab 2 README
+- Assignment system → Lab 2 homework doc
+
+Link within Lab 2:
+- Use relative links: `[Team Contract](./templates/team-contract-template.md)`
+- Link to course resources: `../resources/setup/python-setup.md`
+
+---
+
+## Student GitHub Repository Structure
+
+**Students should mirror this in their project repos:**
+
+```
+student-project-repo/
+├── README.md
+├── .gitignore
+├── .env.example
+├── requirements.txt (or package.json)
+│
+├── docs/
+│   ├── team-contract.md          ← From template
+│   ├── capstone-proposal.md      ← From template
+│   ├── setup.md
+│   ├── architecture.png
+│   └── irb-checklist.md (if applicable)
+│
+├── src/
+│   ├── backend/
+│   ├── frontend/
+│   └── scripts/
+│
+├── tests/
+├── data/ (sample data only)
+└── .github/
+    └── workflows/
+```
+
+**Make sure students understand:**
+- `docs/` folder mirrors what they learned in Lab 2
+- Templates from lab-2/templates/ go into their docs/
+- Their repo structure should follow lab-2/templates/repo-structure.md
+
+---
+
+## Quick Reference Card (for Students)
+
+Create a simple reference that students can bookmark:
+
+```markdown
+# Lab 2 Quick Reference
+
+**Main Docs:**
+- [Lab Overview](./README.md)
+- [Homework Details](./homework-assignment.md)
+
+**Templates (Copy These):**
+- [Team Contract](./templates/team-contract-template.md)
+- [Proposal](./templates/capstone-proposal-template.md)
+- [Repo Structure](./templates/repo-structure.md)
+
+**Step-by-Step Guides:**
+- [GitHub Setup](./guides/github-setup-guide.md)
+- [Writing Problem Statements](./guides/problem-statement-guide.md)
+- [Assigning Roles](./guides/role-assignment-guide.md)
+- [User Research Ethics](./guides/irb-light-guide.md)
+
+**Due:** End of Week 2  
+**Points:** 10  
+**Submit:** GitHub repo URL
+```
+
+---
+
+## Checklist: Is Your Lab 2 Folder Complete?
+
+### Content Completeness
+- [ ] README.md covers all essentials
+- [ ] homework-assignment.md has detailed requirements
+- [ ] instructor-guide.md has full lab plan
+- [ ] All 4 templates are complete
+- [ ] All 4 guides are thorough
+- [ ] Examples provided (if applicable)
+
+### Quality Checks
+- [ ] All links work (internal and external)
+- [ ] No typos or grammar errors
+- [ ] Consistent formatting across files
+- [ ] Clear heading hierarchy
+- [ ] Code blocks are formatted properly
+
+### Accessibility
+- [ ] Headings are semantic (H1, H2, H3)
+- [ ] Images have alt text
+- [ ] Tables are used appropriately
+- [ ] Link text is descriptive
+
+### Instructor Readiness
+- [ ] Instructor guide has timing for all activities
+- [ ] Troubleshooting tips included
+- [ ] Grading rubric is clear
+- [ ] Assessment notes are helpful
+
+### Student Readiness
+- [ ] Entry point (README) is clear
+- [ ] Templates are easy to copy
+- [ ] Guides are step-by-step
+- [ ] FAQ addresses common questions
+
+---
+
+## Future Enhancements (Optional)
+
+Consider adding over time:
+
+### Video Content
+- [ ] Lab walkthrough recording
+- [ ] GitHub setup screencast
+- [ ] Example proposal review video
+
+### Interactive Elements
+- [ ] Online quiz for problem statement validation
+- [ ] Automated repo structure checker
+- [ ] Team contract generator tool
+
+### Additional Examples
+- [ ] Industry case studies
+- [ ] Alumni project showcases
+- [ ] Common failure patterns and fixes
+
+### Assessment Tools
+- [ ] Peer review rubric for proposals
+- [ ] Self-assessment checklist
+- [ ] Progress tracker template
+
+---
+
+## Summary
+
+This folder structure provides:
+
+**For Students:**
+- Clear entry point (README)
+- Copy-paste templates
+- Step-by-step guides
+- Examples for inspiration
+
+**For Instructors:**
+- Detailed teaching guide
+- Assessment rubrics
+- Troubleshooting tips
+- Easy maintenance
+
+**For TAs:**
+- Quick reference for common questions
+- Standardized resources to share
+- Clear grading criteria
+
+**Result:** Consistent, high-quality lab experience that sets teams up for capstone success.
