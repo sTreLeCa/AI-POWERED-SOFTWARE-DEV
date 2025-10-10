@@ -1265,25 +1265,6 @@ README.md
 
 ---
 
-## Instructor's Workflow
-
-### Before Lab
-1. Review `instructor-guide.md`
-2. Test all links in `README.md`
-3. Prepare examples to show from `/examples/`
-4. Queue up templates for screen sharing
-
-### During Lab
-1. Follow schedule in `instructor-guide.md`
-2. Direct students to specific guides as needed
-3. Use templates on screen during demos
-
-### After Lab
-1. Post any clarifications based on questions
-2. Monitor forum for common issues
-3. Review submissions using rubric from `homework-assignment.md`
-
----
 
 ## Maintenance Notes
 
@@ -1544,15 +1525,5 @@ This folder structure provides:
 - Step-by-step guides
 - Examples for inspiration
 
-**For Instructors:**
-- Detailed teaching guide
-- Assessment rubrics
-- Troubleshooting tips
-- Easy maintenance
-
-**For TAs:**
-- Quick reference for common questions
-- Standardized resources to share
-- Clear grading criteria
 
 **Result:** Consistent, high-quality lab experience that sets teams up for capstone success.
