@@ -1,34 +1,23 @@
-# AI-POWERED-SOFTWARE-DEV
+# AI Text Generator - Homework 1
 
-This repository contains course materials for the AI-Powered Applications course at KIU. The course teaches how to build AI powered applications using large language models and retrieval‑augmented generation.
+## Author
+[Aleksandre Pluzhnikovi] - [Pluzhnikovi.aleksand@kiu.edu.ge]
 
-## Structure
+## Final Product Screenshot
+![My App Screenshot](screenshot.png)
 
-- course‑pack/labs – Lab materials and starter code.
-- .devcontainer – Codespaces and local dev container settings.
-- .github/workflows – Continuous integration workflow.
-- package.json – Node.js dependencies and scripts.
-- requirements.txt – Python dependencies.
+## Features Implemented
+### 1. Streaming Text Display
+* **Description:** I updated my `generateText` function to use the `:streamGenerateContent` endpoint. My code now processes the response as a stream of text chunks and appends them to the output area in real-time.
+### 2. Detailed Cost Display
+* **Description:** After the stream is complete, I parse the `usageMetadata` from the final API chunk. I then update the DOM to display the input tokens, output tokens, and the total calculated cost.
+### 3. Copy to Clipboard Button
+* **Description:** I added a "Copy" button. An event listener on this button uses the `navigator.clipboard.writeText()` method to copy the content of the output area. The button text temporarily changes to "Copied!" for confirmation.
+### 4. Personalized Footer
+* **Description:** I added a footer to the `index.html` file. I then wrote a JavaScript function that runs when the page loads to dynamically insert my email address and the current date using `new Date()`.
 
-## Getting Started
-
-To run the Week 1 builder sprint app:
-
-1. Install Node.js (version 18+) and Python (version 3.9+).
-2. Clone this repository to your machine.
-3. Open a terminal and navigate to `course‑pack/labs/week‑01/builder‑sprint‑app`.
-4. Copy `.env.example` to `.env` and paste your API key for Gemini.
-5. From the repository root run `npm install`.
-6. Run `pip install -r requirements.txt` to install Python packages.
-7. Start a local server with `python -m http.server 8000` or `npx http-server -p 8000`.
-8. Open a browser to `http://localhost:8000` and test the app.
-
-## Labs
-
-The Week 1 and 2 lab guide is in `course‑pack/labs/week‑01‑02/LAB.md`. It covers team formation, pre‑lab setup, the builder sprint, and assignments like streaming responses, cost calculation, and retry logic.
-
-Check the labs directory for future assignments and examples.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+## How to Run This Project
+1. Clone this repository.
+2. Add your Gemini API key to `script.js` in the `API_KEY` variable.
+3. Run a local server (e.g., `python3 -m http.server 8000`).
+4. Open `http://localhost:8000` in your browser.
