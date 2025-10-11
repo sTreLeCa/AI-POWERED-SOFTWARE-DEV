@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyAD5bNrBukjbAjr0Jhj3FNn2yPqdg1XX8k'; // Replace with your actual Gemini API key
+const API_KEY = 'key'; // Replace with your actual Gemini API key
 const copyBtn = document.getElementById('copy-btn');
 
 copyBtn.addEventListener('click', () => {
