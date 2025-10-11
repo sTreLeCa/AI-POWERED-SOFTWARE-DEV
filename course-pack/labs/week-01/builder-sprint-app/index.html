@@ -10,9 +10,21 @@
         <h1>AI Text Generator</h1>
         <input type="text" id="promptInput" placeholder="Enter your prompt" />
         <button onclick="generateTextStreaming()">Generate</button>
-        <pre id="output"></pre>
-        <p id="costDisplay"></p>
+        <div class="output-container">
+    <button id="copy-btn">Copy</button>
+    <pre id="output"></pre>
+</div>
+        <div id="usage-info">
+    <span>Input Tokens: <b id="input-tokens">0</b></span> |
+    <span>Output Tokens: <b id="output-tokens">0</b></span> |
+    <span>Total Cost: <b id="total-cost">$0.000000</b></span>
+</div>
     </div>
+    
+    <footer>
+        <p id="footer-content"></p>
+    </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>
