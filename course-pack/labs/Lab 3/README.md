@@ -138,7 +138,7 @@ Carefully review the output files (`transcript`, `summary`, `log`). Compare the 
 
 **📦 Deliverables:**
 
-You will submit a single zip file containing:
+You will submit a single in your personal Github Repository in a folder lab-3/homework
 
 1.  **`audio_pipeline.py`**: Your final, commented Python script.
 2.  **`requirements.txt`**: The list of packages needed to run your script.
@@ -150,7 +150,7 @@ You will submit a single zip file containing:
 
 ---
 
-**✍️ Optimized Reflection Questions:**
+**✍️ Reflection Questions:**
 
 Please answer the following in your `reflection.md`:
 
