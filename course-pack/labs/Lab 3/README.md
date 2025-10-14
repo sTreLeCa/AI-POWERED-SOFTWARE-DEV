@@ -56,7 +56,11 @@ lab-3/
 
 ├── scripts/
 
-│   └── test_setup.py       – script to verify your environment
+│ │   ├── 1_basic_stt.py – basic transcription example used in the lab
+│   ├── 2_confidence_scoring.py – multi-factor confidence scoring example
+│   ├── 3_pii_redaction.py – PII redaction example with regex and NER
+│   ├── 4_tts_summary.py – summary generation and TTS example
+  └── test_setup.py       – script to verify your environment
 
 └── audio_samples/
 
@@ -75,6 +79,8 @@ lab-3/
         └── test_audio_[YOUR_NAME].mp3 – personalised input for your homework
 
 ```
+Note: The `scripts` folder contains example scripts used during the lab session (1_basic_stt.py, 2_confidence_scoring.py, 3_pii_redaction.py and 4_tts_summary.py). These scripts illustrate individual steps of the pipeline and are provided for reference only; they are not required as part of your homework submission.
+
 
 
 
