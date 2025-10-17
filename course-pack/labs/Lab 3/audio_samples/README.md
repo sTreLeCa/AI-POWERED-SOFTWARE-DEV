@@ -12,10 +12,7 @@ so you know where to place your own samples.
 - `contains_credit_card.mp3` – includes a fake credit card number for PII testing.
 - `fast_speech.mp3` – features rapid speech to challenge the recogniser.
 - `low_quality_phone.mp3` – simulates a low quality phone call.
-
-## Students
-
-Personalised audio files for each student see README.md in the Lab 3 folder for full instructions on how to hand in homework
+-  Personalised audio files for each student see README.md in the Lab 3 folder for full instructions on how to hand in homework
 
 
 Do not commit actual audio recordings to this repository. Use a `.gitignore` entry
