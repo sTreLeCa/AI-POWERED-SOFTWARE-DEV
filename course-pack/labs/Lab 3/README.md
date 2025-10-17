@@ -1,158 +1,57 @@
-# Lab 3: Audio AI Pipeline
+# Lab 3 – Audio AI Pipeline
 
+This lab guides you through building an audio processing pipeline using Google Cloud services. You will transcribe speech, evaluate confidence using multiple signals, redact personally identifiable information (PII), generate audio summaries and record what happened for auditing. The code here is intended as a starting point for your own experiments and the homework assignment described in LAB-3-HOMEWORK.md.
 
+## Directory layout
 
-This repository accompanies **Lab 3** for the AI‑powered software development course.  In this lab you will build a complete audio processing pipeline that:
+- README.md – Overview and setup instructions.
+- LAB-3-HOMEWORK.md – Homework specification and deadlines.
+- requirements.txt – Python dependencies pinned to specific versions.
+- .env.example – Template for Google Cloud credentials.
+- audio_samples/ – Example audio files for lab exercises (contains .gitkeep placeholder).
+- scripts/
+  - 1_basic_stt.py – Transcription using Google Cloud Speech-to-Text.
+  - 2_confidence_scoring.py – Multi-factor confidence analysis.
+  - 3_pii_redaction.py – PII detection and redaction.
+  - 4_tts_summary.py – Summarisation and text-to-speech.
+  - verify.py – Diagnostic checks for your environment.
+  - utils_audio.py – Audio utilities (resampling, SNR calculation).
+  - utils_pii.py – PII utilities (number normalisation, Luhn, phone and NER).
+- tools/make_submission_zip.py – Helper to package your homework submission.
+- audio_pipeline.py – Optional full pipeline script for homework.
 
+## Setup
 
+Follow these steps to get the lab running on your machine:
 
-1. Preprocesses an input recording (normalisation and noise removal).
+1. Install Python 3.10 or newer.
+2. Install FFmpeg. Librosa uses FFmpeg to decode MP3 files. On macOS run brew install ffmpeg. On Windows run choco install ffmpeg. On Debian/Ubuntu run sudo apt-get install ffmpeg.
+3. Create a virtual environment and install dependencies. Run python -m venv .venv, activate it, pip install -r requirements.txt and python -m spacy download en_core_web_sm.
+4. Authenticate with Google Cloud and enable APIs: gcloud auth application-default login and gcloud services enable speech.googleapis.com texttospeech.googleapis.com.
+5. Configure environment variables. Copy .env.example to .env and edit the values needed for your credentials. Use a tool like python-dotenv or export variables in your shell.
+6. Run diagnostic checks: python scripts/verify.py. The script reports on FFmpeg availability, API connectivity and spaCy model installation. If any checks fail, revisit the setup steps.
 
-2. Transcribes the recording using Google Cloud Speech‑to‑Text.
+## Lab workflow
 
-3. Computes a multi‑factor confidence score combining API confidence, signal‑to‑noise ratio and language perplexity.
+The lab is organised into four incremental steps, each in the scripts directory.
 
-4. Redacts sensitive personal information (PII) from the transcript using both regular expressions and named‑entity recognition.
+1. Basic speech-to-text – run 1_basic_stt.py to transcribe an audio file and inspect word-level confidence and timing information.
+2. Confidence scoring – run 2_confidence_scoring.py to compute a composite confidence score based on the API’s reported confidence, the signal-to-noise ratio (SNR) calculated from the audio itself and the inverse of the average word confidence.
+3. PII redaction – run 3_pii_redaction.py to detect and redact sensitive information such as credit card numbers, phone numbers, email addresses, names and dates.
+4. Summarisation and TTS – run 4_tts_summary.py to summarise a transcript and convert the summary back to audio using Text-to-Speech.
 
-5. Generates a short text summary and converts it back to audio using Google Cloud Text‑to‑Speech.
+When running these scripts, pass the path to an audio file in the audio_samples directory. If you do not have the example audio files, create your own recordings in WAV format and place them in audio_samples.
 
-6. Writes a structured audit log of every step.
+## Homework
 
+Assemble the above components into a single pipeline, record your own audio and analyse the results. See LAB-3-HOMEWORK.md for the full specification, rubric and due dates. Use tools/make_submission_zip.py to package your submission.
 
+## Deadlines
 
-## Due date
+Please note the following deadlines (Asia/Tbilisi timezone):
 
+- Homework submission: Wednesday, 22 October 2025 at 23:59.
+- Quiz on Weeks 1–4: Thursday, 23 October 2025.
+- Design Review submission: Friday, 24 October 2025.
 
-
-This lab is assigned on **17 October 2025** and is due **24 October 2025 23:59** (Georgia time).  Late submissions may receive a penalty.  Submit your solution through the learning management system.
-
-
-
-## Getting started
-
-
-
-Clone or download this repository to your local machine.  The directory structure is as follows:
-
-
-
-```
-
-lab-3/
-
-├── README.md               – this file
-
-├── .env.example            – example environment configuration
-
-├── docs/
-
-│   └── google_cloud_setup.md  – guide for setting up your Google Cloud account
-
-├── starter_code/
-
-│   ├── audio_pipeline.py   – template for the assignment
-
-│   └── requirements.txt    – Python dependencies
-
-├── scripts/
-
-│ │   ├── 1_basic_stt.py – basic transcription example used in the lab
-│   ├── 2_confidence_scoring.py – multi-factor confidence scoring example
-│   ├── 3_pii_redaction.py – PII redaction example with regex and NER
-│   ├── 4_tts_summary.py – summary generation and TTS example
-  └── test_setup.py       – script to verify your environment
-
-└── audio_samples/ (for your homework assignment)
-
-    ├── clean_speech.mp3    – simple test recording
-
-    ├── noisy_background.mp3
-
-    ├── contains_credit_card.mp3
-
-    ├── fast_speech.mp3
-
-    ├── low_quality_phone.mp3
-
-    ├──test_audio_[YOUR_NAME].mp3 – personalised input for your homework
-
-```
-Note: The `scripts` folder contains example scripts used during the lab session (1_basic_stt.py, 2_confidence_scoring.py, 3_pii_redaction.py and 4_tts_summary.py). These scripts illustrate individual steps of the pipeline and are provided for reference only; they are not required as part of your homework submission.
-
-
-
-
-Use `python3 -m venv venv` to create a virtual environment and run `pip install -r starter_code/requirements.txt` inside it.  See `docs/google_cloud_setup.md` for instructions on authenticating with Google Cloud and enabling the required APIs.
-
-
-
-### Running the environment check
-
-
-
-Run the provided setup script to verify that your machine is ready for the lab:
-
-
-
-```bash
-
-python scripts/test_setup.py
-
-```
-
-
-
-The script will check for Google Cloud authentication, enabled APIs and installed packages.  Fix any errors before you proceed.
-
-
-
-## Assignment tasks
-
-
-📋 HOMEWORK: Build and Test a Personal Audio Pipeline
-
-**🎯 Goal:**
-Your goal is to build a complete audio processing pipeline and test it on a real audio file that you create yourself. This exercise will prove you can handle a full data lifecycle: creating raw data, processing it through multiple AI services, and analyzing the output for real-world flaws.
-
----
-
-**✅ Your Task in 3 Steps:**
-
-**Step 1: Record Your Test Audio 🎤**
-Create your primary test file by recording yourself. This is your "proof of work." Save it as `test_audio.mp3`. You can use your phone or a computer program like Audacity. The recording **must** include:
-
-* Your name spoken clearly twice.
-* A short paragraph (3-4 sentences) about AI.
-* The fake credit card number spoken aloud: "four five three two, one two three four, five six seven eight, nine zero one zero".
-* Some mild background noise (a fan, quiet music, etc.).
-
-**Step 2: Process Your Audio with Your Pipeline ⚙️**
-Run your completed `audio_pipeline.py` script using your `test_audio.mp3` as the input. Your script should perform all the steps from the lab: transcription, confidence scoring, PII redaction, and summary generation.
-
-**Step 3: Analyze and Reflect 🤔**
-Carefully review the output files (`transcript`, `summary`, `log`). Compare the machine-generated transcript to what you actually said. This analysis is the basis for your reflection.
-
----
-
-**📦 Deliverables:**
-
-You will submit a single in your personal Github Repository in a folder lab-3/homework
-
-1.  **`audio_pipeline.py`**: Your final, commented Python script.
-2.  **`requirements.txt`**: The list of packages needed to run your script.
-3.  **`test_audio.mp3`**: The raw audio file you recorded. **(Input)**
-4.  **`output_transcript.txt`**: The final, redacted transcript generated by your script. **(Output)**
-5.  **`output_summary.mp3`**: The final audio summary generated by your script. **(Output)**
-6.  **`audit.log`**: The structured log file from the processing run. **(Output)**
-7.  **`reflection.md`**: Your 300-word analysis answering the questions below.
-
----
-
-**✍️ Reflection Questions:**
-
-Please answer the following in your `reflection.md`:
-
-1.  **Transcription Accuracy:** How accurate was the initial transcript compared to what you actually said? Which specific words or phrases did the STT model struggle with in your recording, and why do you think that happened (e.g., background noise, speaking speed, name pronunciation)?
-2.  **PII Redaction Performance:** Did the PII redaction catch the fake credit card number correctly? Did it falsely redact anything else (a false positive) or miss something? Which is more dangerous in a real application: a missed PII or a false positive?
-3.  **Confidence Score Reliability:** Look at your multi-factor confidence score. Based on the transcript's actual accuracy, do you believe the "HIGH," "MEDIUM," or "LOW" rating was justified? Which factor (API score, SNR, perplexity) do you think was most influential for your specific audio file?
-4.  **Production Readiness:** If you had to make this pipeline ready for a real product, what is the #1 improvement you would make and why? (e.g., better noise reduction, more robust error handling, a more advanced summarization model).
+Late submissions are not accepted without prior approval. If you encounter issues with the setup or APIs, contact the instructor as soon as possible.
