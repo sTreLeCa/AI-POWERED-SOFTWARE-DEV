@@ -14,6 +14,3 @@ so you know where to place your own samples.
 - `low_quality_phone.mp3` – simulates a low quality phone call.
 -  Personalised audio files for each student see README.md in the Lab 3 folder for full instructions on how to hand in homework
 
-
-Do not commit actual audio recordings to this repository. Use a `.gitignore` entry
-to exclude your audio files if needed.
