@@ -62,7 +62,7 @@ lab-3/
 │   ├── 4_tts_summary.py – summary generation and TTS example
   └── test_setup.py       – script to verify your environment
 
-└── audio_samples/
+└── audio_samples/ (for your homework assignment)
 
     ├── clean_speech.mp3    – simple test recording
 
@@ -74,9 +74,7 @@ lab-3/
 
     ├── low_quality_phone.mp3
 
-    └── students/
-
-        └── test_audio_[YOUR_NAME].mp3 – personalised input for your homework
+    ├──test_audio_[YOUR_NAME].mp3 – personalised input for your homework
 
 ```
 Note: The `scripts` folder contains example scripts used during the lab session (1_basic_stt.py, 2_confidence_scoring.py, 3_pii_redaction.py and 4_tts_summary.py). These scripts illustrate individual steps of the pipeline and are provided for reference only; they are not required as part of your homework submission.
