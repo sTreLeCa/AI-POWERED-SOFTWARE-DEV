@@ -46,7 +46,6 @@ When running these scripts, pass the path to an audio file in the audio_samples 
 
 You Homework Assignment for this lab which is dues Friday October 24th as follows:
 ✅ Your Task in 3 Steps:
-
 Step 1: Record Your Test Audio ???? Create your primary test file by recording yourself. This is your "proof of work." Save it as test_audio.mp3. You can use your phone or a computer program like Audacity. The recording must include:
 
 Your name spoken clearly twice.
