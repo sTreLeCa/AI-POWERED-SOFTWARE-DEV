@@ -4,8 +4,7 @@ This lab guides you through building an audio processing pipeline using Google C
 
 ## Directory layout
 
-- README.md – Overview and setup instructions.
-- LAB-3-HOMEWORK.md – Homework specification and deadlines.
+- README.md – Overview and setup instructions with homework, and deadlines
 - requirements.txt – Python dependencies pinned to specific versions.
 - .env.example – Template for Google Cloud credentials.
 - audio_samples/ – Example audio files for lab exercises (contains .gitkeep placeholder).
