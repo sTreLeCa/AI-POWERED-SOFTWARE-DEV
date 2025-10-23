@@ -80,7 +80,7 @@ reflection.md: Your 300-word analysis answering the questions below.
 
 Please note the following deadlines (Asia/Tbilisi timezone):
 
-- Homework submission: Wednesday, 22 October 2025 at 23:59.
+- Homework submission: Friday, 24th October 2025
 - Quiz on Weeks 1–4: Thursday, 23 October 2025.
 - Design Review submission: Friday, 24 October 2025.
 
